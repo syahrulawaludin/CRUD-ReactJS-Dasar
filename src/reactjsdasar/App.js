@@ -1,13 +1,12 @@
-import React from 'react';
-import Navbar from './Navbar'
-import Header from './Header';
 
+import Header from './Header';
+import Navbar from './Navbar'
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Header />
-      <h2>Syahrul Awaludinn</h2>
+      <h2>Hello World!</h2>
     </div>
   );
 }
