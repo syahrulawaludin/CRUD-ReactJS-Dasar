@@ -44,17 +44,17 @@ export default class Crud extends Component {
           return filterMakanan;
         });
 
-        this.setState({
-            makanans: [
-              ...makananYangSelainDiPilih,
-              {
-                id: this.state.makanans.length + 1,
-                nama: this.state.nama,
-                deskripsi: this.state.deskripsi,
-                harga: this.state.harga,
-              },
-            ],
-          });
+      this.setState({
+        makanans: [
+          ...makananYangSelainDiPilih,
+          {
+            id: this.state.makanans.length + 1,
+            nama: this.state.nama,
+            deskripsi: this.state.deskripsi,
+            harga: this.state.harga,
+          },
+        ],
+      });
     }
 
     this.setState({
@@ -82,23 +82,26 @@ export default class Crud extends Component {
 
   hapusData = (id) => {
     const makananBaru = this.state.makanans
-    .filter((makanan) => makanan.id !== id)
-    .map((filterMakanan) => {
-      return filterMakanan;
-    });
+      .filter((makanan) => makanan.id !== id)
+      .map((filterMakanan) => {
+        return filterMakanan;
+      });
 
     this.setState({
-        makanans : makananBaru
-    })
-
-  }
+      makanans: makananBaru,
+    });
+  };
 
   render() {
     return (
       <div>
         <NavbarComponent />
         <div className="container mt-4">
-          <Tabel makanans={this.state.makanans} editData={this.editData} hapusData={this.hapusData} />
+          <Tabel
+            makanans={this.state.makanans}
+            editData={this.editData}
+            hapusData={this.hapusData}
+          />
           <Formulir
             {...this.state}
             handleChange={this.handleChange}
