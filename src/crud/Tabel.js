@@ -6,7 +6,7 @@ const Tabel = ({ makanans, editData, hapusData }) => {
     <Table striped bordered hover>
       <thead>
         <tr>
-          <th>#</th>
+          <th>No</th>
           <th>Nama Makanan</th>
           <th>Deskripsi</th>
           <th>Harga</th>
