@@ -48,7 +48,7 @@ const Formulir = ({
                 onChange={(event) => handleChange(event)}
               />
             </Form.Group>
-            <Button variant="primary" type="submit">
+            <Button variant="primary" type="submit" className="mt-3">
               Submit
             </Button>
           </Form>

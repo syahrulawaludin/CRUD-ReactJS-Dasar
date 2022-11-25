@@ -16,13 +16,19 @@ export default class Crud extends Component {
     };
   }
 
+  // Function handleChange : ketika user mengetik form inputan
+  // event apa yang dilakukan
   handleChange = (event) => {
     this.setState({
       [event.target.name]: event.target.value,
     });
   };
+ 
 
+  // Function handleSubmit : ketika user mengklik submit
   handleSubmit = (event) => {
+
+    // even.preventDefault : mengantisipasi agar tidak reload
     event.preventDefault();
 
     if (this.state.id === "") {
