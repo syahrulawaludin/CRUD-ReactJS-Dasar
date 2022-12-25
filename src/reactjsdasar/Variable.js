@@ -5,7 +5,7 @@ import React from 'react'
 // const harga = 3000;
 // harga = 400;
 
-// Var : global scope (bisa diubah)
+// Var : global scope (bisa diubah) walaupun di deklarasi diluar scope
 var harga = 20000;
 if(true){
   var harga = 300000;
