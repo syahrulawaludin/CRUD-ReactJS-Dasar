@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/CRUD-ReactJS-Dasar/static/css/main.c2cab247.css",
-    "main.js": "/CRUD-ReactJS-Dasar/static/js/main.3aa42f8a.js",
-    "index.html": "/CRUD-ReactJS-Dasar/index.html",
-    "main.c2cab247.css.map": "/CRUD-ReactJS-Dasar/static/css/main.c2cab247.css.map",
-    "main.3aa42f8a.js.map": "/CRUD-ReactJS-Dasar/static/js/main.3aa42f8a.js.map"
+    "main.css": "/CRUD-ReactJS/static/css/main.c2cab247.css",
+    "main.js": "/CRUD-ReactJS/static/js/main.3aa42f8a.js",
+    "index.html": "/CRUD-ReactJS/index.html",
+    "main.c2cab247.css.map": "/CRUD-ReactJS/static/css/main.c2cab247.css.map",
+    "main.3aa42f8a.js.map": "/CRUD-ReactJS/static/js/main.3aa42f8a.js.map"
   },
   "entrypoints": [
     "static/css/main.c2cab247.css",
